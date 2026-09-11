@@ -1,4 +1,4 @@
-﻿{
+{
   "hosting": {
     "public": "public",
     "ignore": [
@@ -39,7 +39,7 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=31536000, immutable"
+            "value": "max-age=86400, must-revalidate"
           }
         ]
       },
@@ -48,7 +48,16 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=604800"
+            "value": "no-cache, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "**/*.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
           }
         ]
       }
