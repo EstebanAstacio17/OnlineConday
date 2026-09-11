@@ -1,0 +1,499 @@
+/* Estilos personalizados para la barra de navegación */
+.navbar-custom {
+    background-color: #0097b2; /* Color de fondo personalizado */
+    /*border-bottom: 2px solid #003d80; /* Borde inferior para resaltar */
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar-custom .nav-link {
+    color: #ffffff; /* Color blanco para los enlaces */
+    font-weight: 500; /* Un poco más grueso para mejorar la visibilidad */
+    transition: color 0.3s; /* Transición suave cuando cambia el color */
+}
+
+/* Color al pasar el mouse sobre los enlaces */
+.navbar-custom .nav-link:hover {
+    color: #faa61a; /* Cambia el color del enlace al pasar el ratón */
+}
+
+/* Estilos para el logo y el texto de la marca */
+.navbar-custom .navbar-brand {
+    color: #ffffff; /* Color blanco para el texto de la marca */
+    font-weight: 600; /* Texto de marca más visible */
+}
+
+/* Cambia el icono de hamburguesa en dispositivos móviles */
+.navbar-custom .navbar-toggler {
+    border-color: #ffffff; /* Color del borde del icono hamburguesa */
+}
+
+/* Cambia el icono de hamburguesa */
+.navbar-custom .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox%3D%220 0 30 30%22 xmlns%3D%22http://www.w3.org/2000/svg%22%3E%3Cpath stroke%3D%22rgba%28255,255,255,0.55%29%22 stroke-width%3D%222%22 stroke-linecap%3D%22round%22 stroke-miterlimit%3D%2210%22 d%3D%22M4 7h22M4 15h22M4 23h22%22/%3E%3C/svg%3E');
+}
+
+/* Barra de navegación al reducirse */
+.navbar-shrink {
+    padding: 0.5rem 1rem;
+}
+
+/* Ajuste de las imágenes del carrusel */
+.carousel-inner img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+
+/* Iconos de los servicios */
+.service-icon {
+    font-size: 3rem;
+    color: #faa61a; /* Color personalizado para los iconos */
+    transition: color 0.3s ease; /* Efecto de transición para el color */
+}
+
+.service-icon:hover {
+    color: #faa61a; /* Cambia a un azul más oscuro al hacer hover */
+}
+
+/* Fondo de la sección de servicios */
+#servicios {
+    background-color: #f1f1f1;
+    padding: 3rem 0;
+    border-top: 2px solid #007bff;
+}
+
+/* Título de la sección de servicios */
+#servicios h2 {
+    color: #343a40;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* Títulos de cada servicio */
+#servicios h4 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Descripción de los servicios */
+#servicios p {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+/* Carrusel: fondo y texto */
+.carousel-inner {
+    background-color: #343a40;
+}
+
+.carousel-caption h5 {
+    color: #ffffff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+    color: #f8f9fa;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Botones de control del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: none;
+    border-radius: 35%;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: #faa61a;
+}
+
+/* Indicadores del carrusel */
+.carousel-indicators [data-bs-target] {
+    background-color: #ffffff;
+}
+
+.carousel-indicators .active {
+    background-color: #007bff;
+}
+
+/* Color de fondo de la página */
+body {
+    background-color: #e9ecef;
+}
+
+/* Estilos para los botones de redes sociales */
+.btn-white {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+/* Efecto hover para los botones */
+.btn:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+/* Hover de los botones de redes sociales */
+.btn-facebook:hover,
+.btn-instagram:hover,
+.btn-twitter:hover,
+.btn-linkedin:hover {
+    opacity: 0.9;
+}
+
+/* Estilos para el texto principal de la primera línea */
+.copyconday {
+    margin-bottom: 0;
+    color: #ffffff; /* Color predeterminado, se puede modificar */
+    font-size: 14px; /* Ajuste opcional del tamaño del texto */
+}
+
+/* Estilos para el texto del enlace "Condominio AL Día, CONDAY" */
+.copyconday a {
+    color: #ffffff; /* Color predeterminado, se puede modificar */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+}
+
+/* Estilos para el texto "Designed by" de la segunda línea */
+.copyportaforza {
+    margin-bottom: 0;
+    color: #ffffff; /* Color predeterminado, se puede modificar */
+    font-size: 14px; /* Ajuste opcional del tamaño del texto */
+}
+
+/* Estilos para el enlace "PortaForza" */
+.copyportaforza a {
+    color: #ffffff; /* Color predeterminado, se puede modificar */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+}
+
+/* Estilos personalizados para el footer */
+footer.custom-footer {
+    background-color: #0097b2; /* Color de fondo del footer */
+    color: #ffffff; /* Color del texto dentro del footer */
+    padding: 20px 0; /* Añade un poco de espacio superior e inferior */
+}
+
+/* Estilos para los enlaces dentro del footer */
+footer.custom-footer a {
+    color: #ffffff; /* Color de los enlaces dentro del footer */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilos para hover en los enlaces */
+footer.custom-footer a:hover {
+    color: #faa61a; /* Color de los enlaces al pasar el ratón por encima */
+    text-decoration: none; /* Añade subrayado al hacer hover */
+}
+
+/* Estilo para el texto en el footer */
+footer.custom-footer p {
+    margin: 0; /* Elimina el margen de los párrafos */
+    font-size: 14px; /* Ajusta el tamaño del texto */
+}
+
+/* Estilo para el botón de "Volver al tope" */
+#btnTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #faa61a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1000;
+}
+#btnTop:hover {
+    background-color: #0056b3;
+}
+
+/* Color personalizado cuando se pasa el mouse */
+.social-link:hover svg {
+    fill: #faa61a; 
+}
+
+.card-img-hover {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card-img-hover:hover {
+    transform: scale(1.3); /* Efecto de escala al pasar el mouse */
+    filter: brightness(1.2) sepia(0.3); /* Cambiar brillo y aplicar un tono de color */
+}
+
+/* Colores personalizados para las tarjetas */
+.bg-custom-card {
+    background-color: #f7f7f7; /* Cambia esto al color de fondo que desees */
+    border: 1px solid #ddd;    /* Bordes personalizados */
+}
+
+/* Colores personalizados para el texto */
+.text-custom {
+    color: #333; /* Cambia esto al color de texto que desees */
+}
+
+/* Fondo personalizado para la sección completa */
+#servicios {
+    background-color: #f0f8ff; /* Color de fondo para toda la sección de servicios */
+    padding: 50px 0;
+}
+
+/* Fondo y bordes personalizados para las tarjetas */
+.bg-custom-card {
+    background-color: #ffffff; /* Fondo blanco para las tarjetas */
+    border: 1px solid #ddd;    /* Bordes ligeros para las tarjetas */
+    transition: background-color 0.3s ease; /* Efecto de transición en hover */
+}
+
+/* Fondo personalizado para las tarjetas al pasar el mouse (hover) */
+.bg-custom-card:hover {
+    background-color: #e6f7ff; /* Cambia al color de fondo que desees al hacer hover */
+}
+
+/* Personalización del texto */
+.text-custom {
+    color: #333; /* Color de texto personalizado */
+    transition: color 0.3s ease; /* Suaviza la transición del color */
+}
+
+/* Cambiar el color del texto en hover */
+.bg-custom-card:hover .text-custom {
+    color: #0056b3; /* Color de texto al hacer hover */
+}
+
+/* Personalización del ícono de servicio */
+.service-icon i {
+    font-size: 2rem;
+    color: #007bff; /* Color de los íconos por defecto */
+    transition: color 0.3s ease; /* Suaviza la transición del color en hover */
+}
+
+/* Personalización de los botones */
+.btn-primary {
+    background-color: #007bff; /* Color de fondo de los botones */
+    border-color: #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Botones en hover */
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo del botón en hover */
+    border-color: #0056b3;
+}
+
+
+/* Estilos del formulario dentro del card */
+.card {
+    border: 2px solid #ddd;
+    background-color: #f8f9fa;
+}
+
+/* Estilos personalizados para la sección de sucursales */
+.sucursales-section {
+    background-color: #f1f1f1; /* Cambia el color de fondo */
+    padding: 50px 0;
+}
+
+/* Estilos para las cards dentro de la sección de sucursales */
+.sucursales-section .card {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+/*
+
+/* Colores personalizados */
+.info-contacto h4 {
+    color: #007bff;
+    font-weight: bold;
+}
+.info-contacto h5 {
+    color: #343a40;
+    font-weight: bold;
+}
+.info-contacto p {
+    color: #6c757d;
+}
+/* Íconos personalizados */
+.info-contacto.bi {
+    color: #007bff;
+    margin-right: 8px;
+}
+/* Links personalizados */
+.info-contacto a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.info-contacto a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.icon-contacto {
+    color: #faa61a; /* Cambia el color de los íconos */
+    
+}
+
+.icon-pagcontacto {
+    color: #faa61a; /* Cambia el color de los íconos */
+}
+
+.data-contacto {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.data-contacto:hover {
+    color: #faa61a ;
+    text-decoration: none;
+    
+}
+
+#sucursales .card {
+    border: 2px solid black; /* Cambia el color del borde */
+    border-radius: 10px; /* Añade un radio de borde */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animación al pasar el ratón */
+}
+
+#sucursales .card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón */
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.4); /* Sombra en hover */
+
+}
+
+#sucursales .card-title {
+    font-weight: bold; /* Negrita en el título */
+    color: #faa61a; /* Color del título */
+    line-height: 3.5; /* Ajusta el interlineado a 1.5 */
+}
+
+#sucursales .card-text {
+    color: #555;  /* Color del texto */
+}
+
+#sucursales .btn-primary {
+    background-color: #007bff; /* Color de fondo del botón */
+    border: none; /* Sin borde */ 
+    border-radius: 10px;
+}
+
+#sucursales .btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo en hover del botón */
+}
+
+/* Cambiar el interlineado solo para los párrafos dentro de las tarjetas en la sección específica */
+.card-bodycontacto p {
+    line-height: 0.5; /* Ajusta el interlineado a 1.5 */
+} 
+
+/* Estilo para las cards de los servicios */
+.service-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Efecto hover: sombra y agrandamiento */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Personalización adicional (colores, márgenes, etc.) */
+.service-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.service-card .card-text {
+    font-size: 0.95rem;
+}
+
+.service-card .btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.service-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Imágenes ajustadas para un diseño atractivo */
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Fondo y sombra para mejorar visibilidad */
+.custom-caption {
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo semitransparente */
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+/* Efecto hover para el fondo */
+.custom-caption:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Personalización del texto */
+.custom-caption h5,
+.custom-caption p {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra para texto */
+    font-weight: bold;
+}
+
+/* Espaciado y tamaño de fuente */
+.custom-caption h5 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.custom-caption p {
+    font-size: 1rem;
+    margin: 0;
+    
+}
+
+
+/* Estilo para el enlace activo */
+.navbar-nav .active-link {
+    color: #faa61a; /* Cambia el color del enlace activo */
+    font-weight: bold;
+    border-bottom: 3px solid #faa61a; /*Añade una línea inferior */
+}
+
+
+.icon-contacto svg {
+    margin-right: 8px; /* Ajusta el espacio entre ícono y texto */
+    color: #faa61a; /* Cambia el color del ícono si es necesario */
+}
+
+.icon-contacto a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
