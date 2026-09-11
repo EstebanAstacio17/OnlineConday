@@ -1,140 +1,278 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Solicitud de servicios que ofrecemos en la administración de condominios">
-    <title>Cliente - Condominio Al Dia, CONDAY</title>
+    
+    <title>Centro de Trámites y Solicitudes Online | CONDAY</title>
+    <meta name="description" content="Gestiona en línea permisos de mudanza, reportes de averías, duplicados de recibos y reservas de áreas comunes para tu condominio.">
+    <link rel="canonical" href="https://condominioaldia.com.do/pags/Solicitudes.html">
 
-    <!-- Conectar la hoja de estilo CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
-
-    <link rel="icon" href="../imgs/3-removebg-preview.png" type="image/x-icon" />
-
+    <link rel="icon" href="../imgs/3-removebg-preview.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="../index.html">
-            <img src="../imgs/3-removebg-preview.png" alt="Logo" width="30" height="30" class="d-inline-block align-top">
-            Condominio Al Día
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-            </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../imgs/3-removebg-preview.png" alt="CONDAY Logo" width="36" height="36">
+                <span>Condominio <span class="brand-accent">Al Día</span></span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Solicitudes.html">Trámites Online</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <a class="btn btn-nav-cta" href="../index.html#cotizador">
+                            <i class="bi bi-calculator me-1"></i> Cotizar Ahora
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<!-- Sección de Servicios -->
-<section id="servicios" class="py-5 mt-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Solicitudes y Servicios Online</h2>
-        <div class="row">
+    <!-- Header Banner -->
+    <section class="hero-section" style="padding: 6.5rem 0 3.5rem;">
+        <div class="container text-center">
+            <span class="badge-tag badge-tag-teal mb-3">Autoservicio Digital para Residentes</span>
+            <h1 class="hero-title mb-3">Centro de <span class="text-gradient">Trámites Online</span></h1>
+            <p class="hero-subtitle mx-auto">
+                Realiza tus solicitudes de forma ágil, segura y directa sin intermediarios innecesarios.
+            </p>
+        </div>
+    </section>
 
-            <!-- Limpieza de Áreas Comunes -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 service-card">
-                    <img src="../imgs/SolicitudServicios.jpg" class="card-img-top" alt="Mantenimiento de Áreas Comunes">
-                    <div class="card-body">
-                        <h5 class="card-title">Solicitud de Servicios - Res. Dos Amigos</h5>
-                        <p class="card-text">
-                            Formulario de solicitud de servicos para el Residencial Dos Amigos.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://forms.gle/V6mWUZ1bpY1Qj7oMA" class="btn btn-primary w-100" target="_blank">Solicitar Servicio</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Cobros de las Cuotas -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 service-card">
-                    <img src="../imgs/PermisosMudanzas.avif" class="card-img-top" alt="Supervisión y Mantenimiento">
-                    <div class="card-body">
-                        <h5 class="card-title">Mudanzas y Acarreos - Res. Dos Amigos</h5>
-                        <p class="card-text">
-                            Formulario de solicitud de Mudanza o Acarreo para el Residencial Dos Amigos.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://forms.gle/CndNFg4PZDuzZCKL9" class="btn btn-primary w-100" target="_blank">Solicitar Permiso</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Supervisión y Mantenimiento -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 service-card">
-                    <img src="../imgs/FacturasRecibos.jpg" class="card-img-top" alt="Personal Externo">
-                    <div class="card-body">
-                        <h5 class="card-title">Duplicados de Facturas y Recibos</h5>
-                        <p class="card-text">
-                            Proximamente podra obtener sus duplicados de Facturas y Recibos aqui.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary w-100">Generar duplicados...</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Supervisión y Mantenimiento -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 service-card">
-                    <img src="../imgs/AdminServiciosOtros.avif" class="card-img-top" alt="Personal Externo">
-                    <div class="card-body">
-                        <h5 class="card-title">Otras Gestiones</h5>
-                        <p class="card-text">
-                            Gestionar asistencia y comunicación con nuestra oficina.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="../pags/contacto.html" class="btn btn-primary w-100">Contactanos...</a>
-                    </div>
-                </div>
-            </div>
+    <!-- Centro de Trámites -->
+    <section class="py-5 bg-white">
+        <div class="container py-3">
             
+            <div class="row g-4 mb-5">
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 p-4 border rounded-4 text-center shadow-sm hover-elevate">
+                        <div class="service-icon-wrapper mx-auto mb-3">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Permiso de Mudanza</h5>
+                        <p class="text-muted small mb-3">Solicitud de autorización para mudanzas y acarreos pesados con control de horarios.</p>
+                        <a href="#formTramite" class="btn btn-outline-custom btn-sm mt-auto" onclick="document.getElementById('tipoTramite').value='mudanza'">Completar Trámite</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 p-4 border rounded-4 text-center shadow-sm hover-elevate">
+                        <div class="service-icon-wrapper mx-auto mb-3">
+                            <i class="bi bi-wrench-adjustable"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Reporte de Avería</h5>
+                        <p class="text-muted small mb-3">Reporte técnico de bombas, portones, luminarias o filtraciones en áreas comunes.</p>
+                        <a href="#formTramite" class="btn btn-outline-custom btn-sm mt-auto" onclick="document.getElementById('tipoTramite').value='averia'">Reportar Avería</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 p-4 border rounded-4 text-center shadow-sm hover-elevate">
+                        <div class="service-icon-wrapper mx-auto mb-3">
+                            <i class="bi bi-receipt-cutoff"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Duplicado de Recibos</h5>
+                        <p class="text-muted small mb-3">Solicitud de estado de cuenta histórico o comprobante fiscal de cuotas de mantenimiento.</p>
+                        <a href="#formTramite" class="btn btn-outline-custom btn-sm mt-auto" onclick="document.getElementById('tipoTramite').value='recibo'">Solicitar Recibo</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 p-4 border rounded-4 text-center shadow-sm hover-elevate">
+                        <div class="service-icon-wrapper mx-auto mb-3">
+                            <i class="bi bi-calendar2-check"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Reserva de Gazebo</h5>
+                        <p class="text-muted small mb-3">Reserva de salón de eventos, área social o piscina comunitaria de tu residencial.</p>
+                        <a href="#formTramite" class="btn btn-outline-custom btn-sm mt-auto" onclick="document.getElementById('tipoTramite').value='reserva'">Reservar Área</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Formulario de Trámite Digital Integrado -->
+            <div class="row justify-content-center" id="formTramite">
+                <div class="col-lg-8">
+                    <div class="custom-form-card">
+                        <h3 class="fw-bold mb-2 text-center">Registro de Trámite o Solicitud</h3>
+                        <p class="text-muted small text-center mb-4">
+                            Completa los datos de tu inmueble para procesar la solicitud con el equipo de administración de tu condominio.
+                        </p>
+
+                        <div id="requestSuccessAlert" class="alert alert-success d-none mb-4" role="alert">
+                            <i class="bi bi-check-circle-fill me-2"></i> <strong>¡Solicitud registrada con éxito!</strong> Tu número de radicación ha sido generado y el personal de administración asignado la atenderá de inmediato.
+                        </div>
+
+                        <form id="condayRequestForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label-custom">Tipo de Trámite *</label>
+                                    <select class="form-select form-select-custom" id="tipoTramite" required>
+                                        <option value="" selected disabled>Selecciona el trámite...</option>
+                                        <option value="mudanza">Permiso de Mudanza / Acarreo</option>
+                                        <option value="averia">Reporte de Avería en Área Común</option>
+                                        <option value="recibo">Duplicado de Recibo / Estado de Cuenta</option>
+                                        <option value="reserva">Reserva de Área Común / Gazebo</option>
+                                        <option value="reclamo">Sugerencia o Reclamo General</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label-custom">Condominio / Residencial *</label>
+                                    <select class="form-select form-select-custom" id="reqCondominio" required>
+                                        <option value="" selected disabled>Selecciona tu condominio...</option>
+                                        <option value="altos-riviera">Ciudad Altos de la Riviera</option>
+                                        <option value="dos-amigos">Residencial Dos Amigos</option>
+                                        <option value="plaza-gazcue">Condominio Plaza Gazcue</option>
+                                        <option value="juan-pablo">Res. Juan Pablo II, Lote II</option>
+                                        <option value="genesis">Residencial Génesis</option>
+                                        <option value="juan-rafael">Residencial Juan Rafael Sur</option>
+                                        <option value="alta-riva">Residencial Alta Riva</option>
+                                        <option value="palmares">Res. Palmares del Este 3</option>
+                                        <option value="otro">Otro Proyecto Administrado</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label-custom">Nombre del Solicitante *</label>
+                                    <input type="text" class="form-control form-control-custom" id="reqNombre" placeholder="Tu nombre y apellido" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label-custom">Número de Apartamento / Edificio *</label>
+                                    <input type="text" class="form-control form-control-custom" id="reqUnidad" placeholder="Ej: Edif. 4, Apto. 302" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label-custom">Teléfono / WhatsApp *</label>
+                                    <input type="tel" class="form-control form-control-custom" id="reqTelefono" placeholder="Ej: (809) 000-0000" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label-custom">Correo Electrónico</label>
+                                    <input type="email" class="form-control form-control-custom" id="reqEmail" placeholder="tucorreo@dominio.com">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label-custom">Descripción Detallada *</label>
+                                    <textarea class="form-control form-control-custom" id="reqDetalle" rows="4" placeholder="Describe la fecha requerida, detalles de la mudanza o ubicación exacta de la avería..." required></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-teal-custom w-100 py-3">
+                                        <i class="bi bi-file-earmark-check-fill me-1"></i> Radicar Solicitud Digital
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
 
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Footer -->
-<footer class="custom-footer text-center py-4">
-    <div class="container">
-        <!--<p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>-->
-        <p class="copyconday mb-0">&copy; Copyright 2024 
-            <a href="https://condominioaldia.com.do/">Condominio AL Día, CONDAY</a>. All rights reserved.
-        </p>
-        
-        <p class="copyportaforza mb-0">Designed by 
-            <a href="https://portaforza.com/" target="_blank">PortaForza</a>
-        </p>
-        
-    </div>
-</footer>
+    <!-- Footer -->
+    <footer class="footer-corporate">
+        <div class="container">
+            <div class="row g-4 justify-content-between">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="../imgs/3-removebg-preview.png" alt="CONDAY Logo" width="40">
+                        <h4 class="text-dark mb-0 fw-bold">Condominio Al Día</h4>
+                    </div>
+                    <p class="text-muted small mb-4">
+                        Empresa dominicana especializada en administración profesional, mantenimiento preventivo y asesoría legal para condominios y torres residenciales.
+                    </p>
+                    <div class="d-flex">
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
 
-<!-- Botón para volver al tope -->
-<button id="btnTop" title="Volver al tope">&#8679;</button>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-heading">Navegación</h5>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="servicios.html">Nuestros Servicios</a></li>
+                        <li><a href="portafolio.html">Condominios</a></li>
+                        <li><a href="Solicitudes.html">Trámites Online</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-heading">Servicios Clave</h5>
+                    <ul class="footer-links">
+                        <li><a href="servicios.html">Gestión Contable & Cobranza</a></li>
+                        <li><a href="servicios.html">Mantenimiento de Bombas & Plantas</a></li>
+                        <li><a href="servicios.html">Asesoría Legal Ley 5038</a></li>
+                        <li><a href="servicios.html">Supervisión de Seguridad</a></li>
+                        <li><a href="servicios.html">Gestión de Personal & Conserjería</a></li>
+                    </ul>
+                </div>
 
-<!-- Script para manejar el botón de "Volver al tope" -->
-<script src="../js/scripts.js"></script>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-heading">Oficina Principal</h5>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>Plaza GC, 2do Nivel, Av. Ecológica Prof. Juan Bosch, Santo Domingo Este</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        <a href="tel:+18094401853" class="text-dark">+1 (809) 440-1853</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <a href="mailto:servicioalcliente@condominioaldia.com.do" class="text-dark">servicioalcliente@condominioaldia.com.do</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-clock-fill"></i>
+                        <span>Lun - Vie: 8:00 AM - 6:00 PM<br>Sáb: 9:00 AM - 1:00 PM</span>
+                    </div>
+                </div>
+            </div>
 
+            <div class="footer-bottom text-center">
+                <p class="mb-1">
+                    &copy; 2026 <strong>Condominio Al Día (CONDAY)</strong>. Todos los derechos reservados.
+                </p>
+                <p class="text-muted small mb-0">
+                    Diseño y Desarrollo de Alta Fidelidad por <a href="https://portaforza.com/" target="_blank" rel="noopener" class="text-dark text-decoration-underline">PortaForza</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/18094401853?text=Hola%20CONDAY,%20deseo%20más%20información%20sobre%20sus%20servicios" 
+       class="whatsapp-float" target="_blank" rel="noopener" aria-label="Hablar por WhatsApp con un Asesor">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button id="btnTop" title="Volver al inicio" aria-label="Volver arriba">
+        <i class="bi bi-chevron-up fs-5"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 </html>
